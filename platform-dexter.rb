@@ -5,11 +5,11 @@
 class PlatformDexter < Formula
   desc "Gini-internal version of dexter"
   homepage "https://github.com/gini/platform-dexter/"
-  version "0.5.1+gini"
+  version "0.5.2+gini"
 
   on_macos do
-    url "https://repo.i.gini.net/nexus/repository/homebrew-tap/platform/dexter/0.5.1+gini/dexter_0.5.1+gini_Darwin_all.tar.gz"
-    sha256 "d9fa1fee54cce2cd5c15a8d6d4cfd0676477ba58ce5dac3ef033b281cc5f4685"
+    url "https://repo.i.gini.net/nexus/repository/homebrew-tap/platform/dexter/0.5.2+gini/dexter_0.5.2+gini_Darwin_all.tar.gz"
+    sha256 "b1c6bafa83c3d7b29ad55bc2131cca101b4da96ad3aadcd068a85b866e0425cd"
 
     def install
       bin.install "dexter"
@@ -18,8 +18,8 @@ class PlatformDexter < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://repo.i.gini.net/nexus/repository/homebrew-tap/platform/dexter/0.5.1+gini/dexter_0.5.1+gini_Linux_x86_64.tar.gz"
-      sha256 "a0327431531ee4db1ffaba796f7aec28394b4394fc7eabd1a9d63362cb9b63ee"
+      url "https://repo.i.gini.net/nexus/repository/homebrew-tap/platform/dexter/0.5.2+gini/dexter_0.5.2+gini_Linux_x86_64.tar.gz"
+      sha256 "46ca4828e8888e03d7b3b364d610fd12d3c9efa83b5c1359934dcef38fb2cfe0"
 
       def install
         bin.install "dexter"
